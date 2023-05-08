@@ -240,7 +240,6 @@ const Projects = () => {
               )}
             </div>
           </div>
-
           <h3 className="project-title">
             <a href={external} target="_blank" rel="noreferrer">
               {title}
@@ -303,7 +302,7 @@ const Projects = () => {
       </ul>
 
       <button className="more-button" onClick={() => setShowMore(!showMore)}>
-        Show {showMore ? 'Less' : 'More'}
+        {showMore ? 'Less' : 'More'}
       </button>
     </StyledProjectsSection>
   );

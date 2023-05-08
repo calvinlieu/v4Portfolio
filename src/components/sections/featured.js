@@ -233,11 +233,6 @@ const StyledProject = styled.li`
         height: 20px;
       }
     }
-
-    .cta {
-      ${({ theme }) => theme.mixins.smallButton};
-      margin: 10px;
-    }
   }
 
   .project-image {
@@ -246,32 +241,32 @@ const StyledProject = styled.li`
     grid-row: 1 / -1;
     position: relative;
     z-index: 1;
-
+  
     @media (max-width: 768px) {
       grid-column: 1 / -1;
       height: 100%;
       opacity: 0.25;
     }
-
+  
     a {
       width: 100%;
       height: 100%;
-      background-color: var(--green);
+      background-color: var(--green); 
       border-radius: var(--border-radius);
       vertical-align: middle;
-
+  
       &:hover,
       &:focus {
         background: transparent;
         outline: 0;
-
+  
         &:before,
         .img {
           background: transparent;
           filter: none;
         }
       }
-
+  
       &:before {
         content: '';
         position: absolute;
@@ -287,6 +282,8 @@ const StyledProject = styled.li`
         mix-blend-mode: screen;
       }
     }
+  }
+  
 
     .img {
       border-radius: var(--border-radius);
@@ -322,7 +319,6 @@ const Featured = () => {
               tech
               github
               external
-              cta
             }
             html
           }
@@ -382,11 +378,6 @@ const Featured = () => {
                     )}
 
                     <div className="project-links">
-                      {cta && (
-                        <a href={cta} aria-label="Course Link" className="cta">
-                          Learn More
-                        </a>
-                      )}
                       {github && (
                         <a href={github} aria-label="GitHub Link">
                           <Icon name="GitHub" />
