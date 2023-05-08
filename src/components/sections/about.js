@@ -127,7 +127,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Calvin and I am a motivated learner who strives to seek discomfort
+              Hello! My name is Calvin, and I am a motivated learner who strives to seek discomfort
               and grow as a developer. As a full-stack software developer, I have enjoyed using
               JavaScript, Python, React/Redux, Express, Flask, SQLAlchemy, HTML, and CSS in my
               projects.
