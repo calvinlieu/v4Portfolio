@@ -127,18 +127,21 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Calvin, and I am a motivated learner who strives to seek discomfort
-              and grow as a developer. As a full-stack software developer, I have enjoyed using
-              JavaScript, Python, React/Redux, Express, Flask, SQLAlchemy, HTML, and CSS in my
-              projects.
+              Software engineer with a background in health care. As a full-stack software
+              developer, I have enjoyed using JavaScript, Python, React, Redux, Java, and more in my
+              projects. On the side, I am currently working on a new project where I am implementing
+              TypeScript. On a more personal note, I'm spontaneous and love to be placed in
+              uncomfortable situations. Whether being in the great outdoors or solving complex
+              coding challenges, I thrive when forced to make decisions on the fly.
             </p>
 
             <p>
-              On a more personal note, I'm a spontaneous person who loves to be placed in
-              uncomfortable situations. Whether being in the great outdoors or solving complex
-              coding challenges, I thrive when forced to make decisions on the fly. I'm also an avid
-              fitness guru who's passionate about teaching my peers about fitness and the benefits
-              of maintaining a perfect work-life balance.
+              Passionate about personal growth, health, and pushing my limits. I'm preparing for the
+              SF 10k race, channeling my dedication and discipline toward achieving my fitness
+              goals. Training for this event has taught me the value of perseverance, setting
+              milestones, and constantly challenging myself. I believe that the same determination
+              and drive fuel my professional pursuits, and I am excited to apply these qualities to
+              contribute meaningfully to my career.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>

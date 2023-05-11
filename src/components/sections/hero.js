@@ -65,8 +65,8 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a software engineer transitioning from the Healthcare industry, specializing in seeking
-        discomfort (and occasionally designing) high quality web applications.
+        I’m a software engineer with a background in health care, specializing in seeking discomfort
+        (and occasionally designing) high quality web applications.
       </p>
     </>
   );
