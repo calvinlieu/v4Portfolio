@@ -1,5 +1,5 @@
 ---
-date: '2012-09-22'
+date: '2022-09-22'
 title: 'Freelance Software Engineer'
 company: 'Wrathbots LLC'
 location: 'Remote'
